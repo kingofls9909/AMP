@@ -8,6 +8,9 @@
 
 > [!NOTE]
 > This Image Requires The Following Enviroment Variables
+
+
+
 | Name | Description | Default Value |
 |---|---|---|
 | `AMP_LICENCE` | Your official CubeCoders AMP License key required on first boot. | *Required* |
@@ -16,6 +19,8 @@
 | `AMP_PORT` | The internal container port that the main AMP Web UI instance binds to. | `8080` |
 | `HOST_PORT` | The external host port mapped to the AMP Web UI. | `8180` |
 | `SFTP_PORT` | The external host port mapped to the AMP SFTP management service. | `2224` |
+
+
 > [!NOTE]  
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
 
