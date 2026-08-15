@@ -19,6 +19,17 @@
 | `SFTP_PORT` | The external host port mapped to the AMP SFTP management service. | `2223` |
 
 
+> [!NOTE]
+> This image includes the following Java versions
+> **Eclipse Temurin 25 (JDK)** *(System Default)*
+> ** **Eclipse Temurin 24 (JDK)**
+> ** **Eclipse Temurin 23 (JDK)**
+> ** **Eclipse Temurin 22 (JDK)**
+> **Eclipse Temurin 21 (JDK)**
+> **Eclipse Temurin 17 (JDK)**
+> **Eclipse Temurin 11 (JDK)**
+> **Eclipse Temurin 8 (JDK)**
+
 > [!NOTE]  
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
 
