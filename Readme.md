@@ -17,7 +17,7 @@
 | `AMP_USERNAME` | The username of the admin user created on first boot. | `admin` |
 | `AMP_PASSWORD` | The password of the admin user. This value is only used when creating the new user. If you use the default value, please change it after first sign-in. | `ChangeMe123!` |
 | `AMP_PORT` | The internal container port that the main AMP Web UI instance binds to. | `8080` |
-| `HOST_PORT` | The external host port mapped to the AMP Web UI. | `8080` |
+| `HOST_PORT` | The internal container port mapped to the AMP Web UI. | `8080` |
 | `SFTP_PORT` | The external host port mapped to the AMP SFTP management service. | `2223` |
 
 
