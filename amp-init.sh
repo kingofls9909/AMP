@@ -32,7 +32,6 @@ chown -R amp:amp /home/amp
 if runuser -u amp -- ampinstmgr status | grep -i -q "ADS01"; then
     echo ">> [INFO] Existing instance 'ADS01' found."
     
-    # Query instance info directly via ampinstmgr to check current port
     INSTANCE_INFO=$(runuser -u amp -- ampinstmgr ShowInstanceInfo ADS01 2>&1 || true)
     CURRENT_PORT=$(echo "$INSTANCE_INFO" | grep -i "URL" | awk -F'│' '{print $2}' | sed -E 's/.*:([0-9]+)\/?.*/\1/' | tr -d ' ')
 
