@@ -3,8 +3,8 @@
 > **Please DO NOT ask CubeCoders for support if you use this image. They do not support nor endorse this image and will understandably tell you that you are on your own.**
 > 
 > This project is community driven by people who have full time responsibilities elsewhere. You should be able to navigate Docker, Linux, bash, etc. and feel comfortable debugging containers on your own if you intend to use this image.
->
-> That said, if you have time and are able to help, please feel free! I love PRs!
+
+
 
 > [!NOTE]
 > This Image Requires The Following Environment Variables
