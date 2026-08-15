@@ -21,10 +21,10 @@
 
 > [!NOTE]
 > This image includes the following Java versions
-> **Eclipse Temurin 25 (JDK)** *(System Default)*
-> ** **Eclipse Temurin 24 (JDK)**
-> ** **Eclipse Temurin 23 (JDK)**
-> ** **Eclipse Temurin 22 (JDK)**
+> **Eclipse Temurin 25 (JDK)**
+> **Eclipse Temurin 24 (JDK)**
+> **Eclipse Temurin 23 (JDK)**
+> **Eclipse Temurin 22 (JDK)**
 > **Eclipse Temurin 21 (JDK)**
 > **Eclipse Temurin 17 (JDK)**
 > **Eclipse Temurin 11 (JDK)**
