@@ -7,7 +7,7 @@
 > That said, if you have time and are able to help, please feel free! I love PRs!
 
 > [!NOTE]
-> This Image Requires The Following Enviroment Variables
+> This Image Requires The Following Environment Variables
 
 | Variable | Description | Default Value |
 |---|---|---|
