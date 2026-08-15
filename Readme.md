@@ -25,6 +25,9 @@
 
 
 > [!NOTE]
+> **Tested Compatibility:**
+> This image has been verified and tested running **Minecraft** using **Java 25 (Eclipse Temurin JDK)**. Other game modules and Java versions included in the build are provided as-is and have not been explicitly tested.
+>
 > This image includes the following Java versions:
 > - **Java 25** (Eclipse Temurin JDK)
 > - **Java 24** (Eclipse Temurin JDK)
@@ -34,10 +37,6 @@
 > - **Java 17** (Eclipse Temurin JDK)
 > - **Java 11** (Eclipse Temurin JDK)
 > - **Java 8** (Eclipse Temurin JDK)
-
-> [!NOTE]
-> **Tested Compatibility:**
-> This image has been verified and tested running **Minecraft** using **Java 25 (Eclipse Temurin JDK)**. Other game modules and Java versions included in the build are provided as-is and have not been explicitly tested.
 
 > [!NOTE]  
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
