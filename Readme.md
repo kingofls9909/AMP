@@ -22,7 +22,7 @@
 
 > [!IMPORTANT]
 > **Environment File Required (`.env`)**
-> Before starting the container, you **must** create a `.env` file in the same directory as `docker-compose.yml` containing your `AMP_LICENCE`, `AMP_USERNAME`,, `AMP_PASSWORD`, `AMP_PORT` , `HOST_PORT` and `SFTP_PORT`. A `.env` file is included in the repository—you can copy it and fill in your values. The container will fail to initialize if these variables are missing.
+> Before starting the container, you **must** create a `.env` file in the same directory as `docker-compose.yml` containing your `AMP_LICENCE`, `AMP_USERNAME`, `AMP_PASSWORD`, `AMP_PORT` , `HOST_PORT` and `SFTP_PORT`. A `.env` file is included in the repository—you can copy it and fill in your values. The container will fail to initialize if these variables are missing.
 
 
 > [!NOTE]
