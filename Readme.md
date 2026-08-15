@@ -9,7 +9,7 @@
 > [!NOTE]
 > This Image Requires The Following Enviroment Variables
 
-| Name | Description | Default Value |
+| Variable | Description | Default Value |
 |---|---|---|
 | `AMP_LICENCE` | Your official CubeCoders AMP License key required on first boot. | *None* |
 | `AMP_USERNAME` | The username of the admin user created on first boot. | `admin` |
