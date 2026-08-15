@@ -19,6 +19,11 @@
 | `SFTP_PORT` | The external host port mapped to the AMP SFTP management service. | `2223` |
 
 
+> [!IMPORTANT]
+> **Environment File Required (`.env`)**
+> Before starting the container, you **must** create a `.env` file in the same directory as `docker-compose.yml` containing your `AMP_LICENCE`, `AMP_USERNAME`, and `AMP_PASSWORD`. A `.env.example` file is included in the repository—you can copy or rename it to `.env` and fill in your values. The container will fail to initialize or bind ports properly if these variables are missing.
+
+
 > [!NOTE]
 > This image includes the following Java versions:
 > - **Java 25** (Eclipse Temurin JDK)
@@ -36,3 +41,8 @@
 
 > [!NOTE]  
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
+
+
+> [!TIP]
+> **Minecraft Server Port Configuration**
+> By default, `docker-compose.yml` only exposes the AMP Web UI and SFTP management ports. When creating a Minecraft instance in AMP, ensure you map the game port (default `25565:25565/tcp`) in your Compose file or host firewall.

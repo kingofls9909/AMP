@@ -1,13 +1,9 @@
 services:
   amp:
     image: ghcr.io/kingofls9909/amp-docker:latest
-#    pull_policy: never
-    container_name: amp_instance3
+    container_name: amp-docker
     restart: unless-stopped
     mac_address: "02:42:ac:11:00:02"
-    dns:
-      - 1.1.1.1
-      - 1.0.0.1
     environment:
       - AMP_LICENCE=${AMP_LICENCE}
       - AMP_USERNAME=${AMP_USERNAME}
@@ -15,8 +11,6 @@ services:
       - AMP_PORT=${AMP_PORT:-8080}
     volumes:
       - ./ampdata:/home/amp/
-#      - ./Java:/usr/lib/jvm
     ports:
-      - "${HOST_PORT:-8180}:${AMP_PORT:-8080}"  # Web UI (Host -> Container)
+      - "${HOST_PORT:-8180}:${AMP_PORT:-8080}"  # Web UI 
       - "${SFTP_PORT:-2224}:2223"               # AMP SFTP Management
-      - "25565:25565"
