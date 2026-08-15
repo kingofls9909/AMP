@@ -20,15 +20,15 @@
 
 
 > [!NOTE]
-> This image includes the following Java versions
-> **Eclipse Temurin 25 (JDK)**
-> **Eclipse Temurin 24 (JDK)**
-> **Eclipse Temurin 23 (JDK)**
-> **Eclipse Temurin 22 (JDK)**
-> **Eclipse Temurin 21 (JDK)**
-> **Eclipse Temurin 17 (JDK)**
-> **Eclipse Temurin 11 (JDK)**
-> **Eclipse Temurin 8 (JDK)**
+> This image includes the following Java versions:
+> - **Java 25** (Eclipse Temurin JDK) — *System Default*
+> - **Java 24** (Eclipse Temurin JDK)
+> - **Java 23** (Eclipse Temurin JDK)
+> - **Java 22** (Eclipse Temurin JDK)
+> - **Java 21** (Eclipse Temurin JDK)
+> - **Java 17** (Eclipse Temurin JDK)
+> - **Java 11** (Eclipse Temurin JDK)
+> - **Java 8** (Eclipse Temurin JDK)
 
 > [!NOTE]  
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
