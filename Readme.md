@@ -21,7 +21,7 @@
 
 > [!NOTE]
 > This image includes the following Java versions:
-> - **Java 25** (Eclipse Temurin JDK) — *System Default*
+> - **Java 25** (Eclipse Temurin JDK)
 > - **Java 24** (Eclipse Temurin JDK)
 > - **Java 23** (Eclipse Temurin JDK)
 > - **Java 22** (Eclipse Temurin JDK)
