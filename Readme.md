@@ -35,4 +35,5 @@ AMP (Application Management Panel) allows you to manage one or more game servers
 
 > [!WARNING]
 > **This is a community-made unofficial image, and is not endorsed by CubeCoders.**
+> 
 > **Please DO NOT ask CubeCoders for support. They do not support nor endorse this image and will tell you that you are on your own.**
