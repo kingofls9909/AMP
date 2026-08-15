@@ -37,8 +37,8 @@
 > - **Java 17** (Eclipse Temurin JDK)
 > - **Java 11** (Eclipse Temurin JDK)
 > - **Java 8** (Eclipse Temurin JDK)
-
-> [!NOTE]  
+>
+> 
 AMP (Application Management Panel) allows you to manage one or more game servers from a web UI. You need a [CubeCoders AMP Licence](https://cubecoders.com/AMP) to use AMP; this image does not bypass that requirement.
 
 
